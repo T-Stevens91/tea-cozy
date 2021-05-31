@@ -3,33 +3,37 @@ body {
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
-	opacity: 0.9;
+	opacity: 0.6;
 	text-align: center;
+	margin: 0;
 }
 
 header {
 	border-bottom: 1px solid seashell;
+	background-color: black;
 	height: 69px;
 	width: 100%;
 	position: fixed;
 	padding: 0 10px;
-
+	z-index: 2;
 }
 
 header img {
 	height: 50px;
+	display: inline-block;
 	float: left;
+	padding-top: 9px;
 }
 
 nav {
-	float: right;
-	margin: 0 10px;
+	text-align: right;
+	padding: 0 20px;
 }
 
 nav li {
 	list-style: none;
 	padding: 0 10px;
-	display: inline;
+	display: inline-block;
 }
 
 nav a {
@@ -37,9 +41,25 @@ nav a {
 	color: seashell;
 }
 
+main {
+	position: relative;
+	top: 69px;
+}
+
+section {
+	display: flex;
+}
+
 #mission {
 	background-image: url("../images/img-mission-background.jpg");
 	height: 700px;
-	background-repeat: no-repeat;
-	margin-top: 69px;
+	width: 1200px;
+	background-size: cover;
+}
+
+#textBanner {
+	width: 100%;
+	background-color: black;
+	margin: auto 0;
+	line-height: 0.7;
 }
