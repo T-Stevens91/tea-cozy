@@ -1,3 +1,45 @@
-@charset "UTF-8";
-/* CSS Document */
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+}
 
+header {
+	border-bottom: 1px solid seashell;
+	height: 69px;
+	width: 100%;
+	position: fixed;
+	padding: 0 10px;
+
+}
+
+header img {
+	height: 50px;
+	float: left;
+}
+
+nav {
+	float: right;
+	margin: 0 10px;
+}
+
+nav li {
+	list-style: none;
+	padding: 0 10px;
+	display: inline;
+}
+
+nav a {
+	text-decoration: underline;
+	color: seashell;
+}
+
+#mission {
+	background-image: url("../images/img-mission-background.jpg");
+	height: 700px;
+	background-repeat: no-repeat;
+	margin-top: 69px;
+}
