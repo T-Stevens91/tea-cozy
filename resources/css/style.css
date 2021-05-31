@@ -46,15 +46,13 @@ main {
 	top: 69px;
 }
 
-section {
-	display: flex;
-}
-
 #mission {
 	background-image: url("../images/img-mission-background.jpg");
 	height: 700px;
 	width: 1200px;
 	background-size: cover;
+	display: flex;
+	margin: 0 auto;
 }
 
 #textBanner {
@@ -62,4 +60,20 @@ section {
 	background-color: black;
 	margin: auto 0;
 	line-height: 0.7;
+}
+
+#teaOfTheMonth {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+figure {
+	display: inline-block;
+	margin: 10px 0 0 0;
+}
+
+figure img {
+	width: 300px;
+	height: 200px;
+	padding: 10px;
 }
